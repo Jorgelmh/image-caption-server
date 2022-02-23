@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 #Importing model
-module_handle = "https://tfhub.dev/tensorflow/centernet/hourglass_512x512/1"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -30,7 +29,6 @@ ALLOWED_HOSTS = []
 
 
 # backend/settings.py
-
 
 # Application definition
 INSTALLED_APPS = [

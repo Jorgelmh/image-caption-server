@@ -27,5 +27,6 @@ urlpatterns = [
 	path('admin/', admin.site.urls),       
 	path('api/', include(router.urls)),
 	path('api/prediction', views.RatingView.as_view()),
+	path('.well-known/pki-validation/63570D761315D18DF6A038FF843EFDC1.txt', TemplateView.as_view(template_name="63570D761315D18DF6A038FF843EFDC1.txt", content_type='text/plain')),
 	path('', TemplateView.as_view(template_name="index.html"))
 ]

@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from rest_framework import viewsets
 from .Serializers import PredictionsSerializer
 from .models import Caption, CaptionReview
@@ -25,7 +24,7 @@ class CaptionView(viewsets.ModelViewSet):
     else:
       limit = 50
 
-    queryset = Caption.objects.all().order_by('id')[offset: limit]
+    queryset = Caption.objects.all().order_by('id')[offset: offset + limit]
     return queryset
 
 # Return a random Caption object
@@ -37,10 +36,9 @@ class RatingView(APIView):
   
   def post (self, request):
     caption_id = int(request.data['caption_id'])
-    caption = Caption.objects.get(pk=caption_id)
     rate = request.data['rate']
 
-    review = CaptionReview(rate=rate, caption_id=caption)
+    review = CaptionReview(rate=rate, caption_id=caption_id)
     review.save()
 
     return JsonResponse({"status": 'Success'})

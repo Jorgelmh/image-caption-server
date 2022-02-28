@@ -4,7 +4,7 @@ import { ImageButton } from '../AppContainer'
 const PredictionCard = (props) => (
   <div className='disp-flex' style={{ justifyContent: 'center' }}>
     <ImageButton onClick={props.handleClick}>
-      <img src={props.image_url} />
+      <img src={'static/images/' + props.image_url} />
     </ImageButton>
   </div>
 )

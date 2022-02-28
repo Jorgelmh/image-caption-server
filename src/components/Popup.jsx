@@ -62,7 +62,7 @@ const Popup = () => {
                 </div>
               ) : (
                 <>
-                  <img src={prediction.image_url} className='submitted-img' alt='Your submitted image' />
+                  <img src={'static/images/' + prediction.image_url} className='submitted-img' alt='Your submitted image' />
                   <h2 style={{ margin: '5px', fontSize: '1.2rem' }}>Model Prediction:</h2>
                   <p style={{ marginTop: '0' }}>{ prediction.caption }</p>
                   <div className="disp-flex" style={{ justifyContent: 'center', margin: '20px 0' }}>

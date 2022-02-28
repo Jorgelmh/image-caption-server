@@ -29,7 +29,8 @@ const Dataset = () => {
     displayPopup(record)
   }
 
-  const fetchFromDb = (offset) => axios.get('/api/captions', { params: { offset, limit: offset + 29 } }).then((response) => {
+  const fetchFromDb = (offset) => axios.get('/api/captions', { params: { offset, limit: 30 } }).then((response) => {
+    console.log(response.data.length)
     return Promise.resolve(response.data)
   })
 
@@ -41,7 +42,7 @@ const Dataset = () => {
     fetchFromDb(offset).then((data) => {
       const dividedArr = getRows(data)
       datasetLocal = dividedArr
-      offset += 29
+      offset += 30
       setDataset(dividedArr)
     })
 
@@ -51,13 +52,15 @@ const Dataset = () => {
       if ((window.innerHeight + window.scrollY + 100) >= document.body.offsetHeight) {
         if (!fetching) {
           fetchFromDb(offset).then((data) => {
-            offset += 29
+            offset += 30
             if (data.length === 0) {
               setLoading(false)
               return
             }
+            console.log(datasetLocal)
             const dividedArr = getRows(data)
-            setDataset([...datasetLocal, ...dividedArr])
+            datasetLocal = [...datasetLocal, ...dividedArr]
+            setDataset([...datasetLocal])
             fetching = false
           })
           fetching = true

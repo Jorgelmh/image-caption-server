@@ -12,7 +12,6 @@ class Caption(models.Model):
       return self
 
 class CaptionReview(models.Model):
-  RATE_CHOICES = [ ('VL', 'Very Low'), ('LO', 'Low'), ( 'OK', 'Ok'), ( 'GO', 'Good'), ('VG', 'Very Good')]
   rate = models.IntegerField()
   caption = models.ForeignKey(Caption, on_delete=models.CASCADE)
 

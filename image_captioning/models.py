@@ -14,8 +14,7 @@ class Caption(models.Model):
 class CaptionReview(models.Model):
   rate = models.IntegerField()
   caption = models.ForeignKey(Caption, on_delete=models.CASCADE)
-
-  class Meta:
+  class Merevita:
     db_table = 'caption_reviews'
 
   def _str_(self):

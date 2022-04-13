@@ -1,0 +1,98 @@
+
+  { "Author":{"Firstname":"Ian", "Surname":"Flemming"},
+  "Title":"The Spy Who Loved Me",
+  "Price":[{"Currency":"GBP", "Amount":12}, {"Currency":"USD", "Amount":15}, {"Currency":"Euro", "Amount":14}],
+  "Type":"Fiction",
+  "Genre":["Thriller", "Spy"],
+  "Language":"English",
+  "Rating":4
+  }
+  { "Author":{"Firstname":"Ian", "Surname":"Flemming"},
+  "Title":"The Man With the Golden Gun",
+  "Price":[{"Currency":"GBP", "Amount":12}, {"Currency":"USD", "Amount":15}, {"Currency":"Euro", "Amount":14}],
+  "Type":"Fiction",
+  "Genre":["Thriller", "Spy"],
+  "Language":"English",
+  "Rating":4
+  }
+  { "Author":{"Firstname":"Ian", "Surname":"Flemming"},
+  "Title":"Octopussy",
+  "Price":[{"Currency":"GBP", "Amount":12}, {"Currency":"USD", "Amount":15}, {"Currency":"Euro", "Amount":14}],
+  "Type":"Fiction",
+  "Genre":["Thriller", "Spy"],
+  "Language":"English",
+  "Rating":3
+  }
+  { "Author":{"Firstname":"Barbara", "Surname":"Kingsolver"},
+  "Title":"The Poisonwood Bible",
+  "Price":[{"Currency":"GBP", "Amount":25}, {"Currency":"USD", "Amount":30}, {"Currency":"Euro", "Amount":28}],
+  "Type":"Fiction",
+  "Genre":["Historical"],
+  "Language":"English",
+  "Rating":5
+  }
+  { "Author":{"Firstname":"Barbara", "Surname":"Kingsolver"},
+  "Title":"The Lacuna",
+  "Price":[{"Currency":"GBP", "Amount":25}, {"Currency":"USD", "Amount":30}, {"Currency":"Euro", "Amount":28}],
+  "Type":"Fiction",
+  "Genre":["Historical"],
+  "Language":"English",
+  "Rating":4
+  }
+  { "Author":{"Firstname":"Jung", "Surname":"Chang"},
+  "Title":"Wlld Swans: Three Daughters of China",
+  "Price":[{"Currency":"GBP", "Amount":15}, {"Currency":"USD", "Amount":18}, {"Currency":"Euro", "Amount":18}],
+  "Type":"Non-Fiction",
+  "Genre":["Historical"],
+  "Language":"English",
+  "Rating":4
+  }
+  { "Author":{"Firstname":"Vikram", "Surname":"Seth"},
+  "Title":"A Suitable Boy",
+  "Price":[{"Currency":"GBP", "Amount":25}, {"Currency":"USD", "Amount":30}, {"Currency":"Euro", "Amount":28}],
+  "Type":"Fiction",
+  "Genre":["Historical"],
+  "Language":"English",
+  "Rating":3
+  }
+  ,
+  { "Author":[{"Firstname":"Martin", "Surname":"Fowler"},{"Firstname":"Pramod", "Surname":"Sadalage"}],
+  "Title":"NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+  "Price":[{"Currency":"GBP", "Amount":20}, {"Currency":"USD", "Amount":22}, {"Currency":"Euro", "Amount":25}],
+  "Type":"Non-Fiction",
+  "Genre":["Computing","Databases"],
+  "Language":"English",
+  "Rating":3
+  }
+  { "Author":[{"Firstname":"Thomas", "Surname":"Connolly"},{"Firstname":"Carolyn", "Surname":"Begg"}],
+  "Title":"Database Systems: A Practical Approach to Design, Implementation, and Management",
+  "Price":[{"Currency":"GBP", "Amount":25}, {"Currency":"USD", "Amount":35}, {"Currency":"Euro", "Amount":29}],
+  "Type":"Non-Fiction",
+  "Genre":["Computing","Databases"],
+  "Language":"English",
+  "Rating":2
+  }
+  { "Author":[{"Firstname":"Ian", "Surname":"Witten"},{"Firstname":"Eibe", "Surname":"Frank"},{"Firstname":"Mark", "Surname":"Hall"}],
+  "Title":"Data Mining",
+  "Price":[{"Currency":"GBP", "Amount":25}, {"Currency":"USD", "Amount":35}, {"Currency":"Euro", "Amount":29}],
+  "Type":"Non-Fiction",
+  "Genre":["Computing","Data Science"],
+  "Language":"English",
+  "Rating":4
+  }
+  { "Author":[{"Firstname":"Trevor", "Surname":"Hastie"},{"Firstname":"Robert", "Surname":"Tibshirani"},{"Firstname":"Jerome", "Surname":"Friedman"}],
+  "Title":"The Elements of Statistical Learning",
+  "Price":[{"Currency":"GBP", "Amount":25}, {"Currency":"USD", "Amount":35}, {"Currency":"Euro", "Amount":29}],
+  "Type":"Non-Fiction",
+  "Genre":["Computing","Data Science"],
+  "Language":"English",
+  "Rating":5
+  }
+  { "Author":{"Firstname":"Antoine", "Surname":"De Saint-Exupery"},
+  "Title":"Le Petit Prince",
+  "Price":[{"Currency":"GBP", "Amount":12}, {"Currency":"USD", "Amount":15}, {"Currency":"Euro", "Amount":14}],
+  "Type":"Fiction",
+  "Genre":["Children", "Fantasy"],
+  "Language":"French",
+  "Rating":5
+  }
